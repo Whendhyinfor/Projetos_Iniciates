@@ -1,0 +1,39 @@
+body {
+  background-color: #87CEEB; /* Código hexadecimal para a cor azul claro */
+  margin: 0; /* Define as margens do corpo para 0 para evitar espaçamento padrão */
+}
+
+/* Estilização da classe "container" */
+.container {
+  display: flex; /* Utiliza o modelo de layout flexível */
+  flex-direction: column; /* Os itens são organizados em uma coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  height: 100vh; /* A altura é 100% da altura da janela de visualização */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+/* Estilização da classe "form-group" */
+.form-group {
+  margin-bottom: 10px; /* Adiciona margem inferior para separar os grupos de formulários */
+}
+
+/* Estilização para os elementos de entrada de texto e número */
+/* Adicione uma margem interna para os elementos de entrada para maior espaço */
+input[type="text"],
+input[type="number"] {
+  padding: 5px; /* Adiciona preenchimento interno aos campos de entrada */
+  margin: 5px 0; /* Adiciona margem superior e inferior aos campos de entrada */
+  box-sizing: border-box; /* Inclui a largura e altura total com preenchimento e borda */
+}
+
+/* Estilização para os elementos de número específicos */
+/* Ajuste a largura do campo de número para fornecer mais espaço para digitação */
+input[type="number"] {
+  width: 80px; /* Define a largura específica para campos de número */
+}
+
+/* Estilização para o botão */
+button {
+  padding: 8px 15px; /* Aumente um pouco o preenchimento para um visual mais agradável */
+}
